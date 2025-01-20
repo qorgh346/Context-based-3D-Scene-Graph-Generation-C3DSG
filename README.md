@@ -74,9 +74,13 @@ python main.py --mode eval --config /CSGGN/configs/config_CSGGN
 ```
 ---
 ## Result
+### 정량적 평가
+- ![performance.png](assets/performance.png)
 
-- ![result.png](assets/result.png)
-
+### 정성적 평가
+- ![result1.png](assets/result1.png)
+- ![result2.png](assets/result2.png)
+- ![result3.png](assets/result3.png)
 ---
 
 ## Paper
