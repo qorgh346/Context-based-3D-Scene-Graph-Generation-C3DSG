@@ -72,6 +72,10 @@ python main.py --mode train --config /CSGGN/configs/config_CSGGN
 ```bash
 python main.py --mode eval --config /CSGGN/configs/config_CSGGN
 ```
+---
+## Result
+
+- ![result.png](assets/result.png)
 
 ---
 
