@@ -1,0 +1,40 @@
+{
+    "nodeType" : {
+      "struture": ["floor","wall","ceiling","door"],
+      "furniture": ["cabinet","chair","table","sofa","bed","shelf"],
+      "fixture": ["window","sink","toilet","bathtub","counter"],
+      "item": ["plant","towel","pillow","lamp","box","clothes","nightstand","curtain","object","blanket","tv","fridge"]
+    },
+    "edgeType": {
+      "support": ["supported by","attached to","standing on","lying on","hanging on","connected to"],
+      "proximity": ["left","right","front","behind","close by","leaning against"],
+      "inclusion": ["part of","belonging to","build in","standing in","lying in","hanging in","cover"],
+      "comparative": ["bigger than","smaller than","higher than","lower than","same as","same symmetry as"]
+    },
+    "meta_relations": [["item","support","struture"],
+                      ["fixture","support","struture"],
+                      ["furniture","support","struture"],
+                      ["struture","support","struture"],
+                      ["item","support","furniture"],
+
+  
+                      ["item","comparative","item"],
+                      ["furniture","comparative","furniture"],
+                      ["item","comparative","furniture"],
+                      ["furniture","comparative","item"],
+  
+                      ["item","inclusion","fixture"],
+                      ["item","inclusion","furniture"],
+                      ["fixture","inclusion","fixture"],
+  
+                      ["item","proximity","item"],
+                      ["furniture","proximity","furniture"],
+                      ["furniture","proximity","item"],
+                      ["item","proximity","furniture"],
+                      ["fixture","proximity","item"],
+                      ["item","proximity","fixture"]
+
+
+    ]
+  
+  }
